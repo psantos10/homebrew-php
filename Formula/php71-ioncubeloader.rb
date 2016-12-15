@@ -13,13 +13,6 @@ class Php71Ioncubeloader < AbstractPhp71Extension
   end
   version "6.0.7"
 
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "f85714ecd0c1e3f0b4dec8847b526a15dd58259ad17393a3fa792c8722f202b4" => :sierra
-    sha256 "f85714ecd0c1e3f0b4dec8847b526a15dd58259ad17393a3fa792c8722f202b4" => :el_capitan
-    sha256 "6ad778b4ea3a4def049f1000ed612c9c01ab05b8505117b012f62725493997a2" => :yosemite
-  end
-
   def extension_type
     "zend_extension"
   end
