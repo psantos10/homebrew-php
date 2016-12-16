@@ -9,9 +9,9 @@ class Php71Ioncubeloader < AbstractPhp71Extension
     sha256 "267f9c4810eec91420f338e3206c1fce02e4ee85e1c491a7234707ab7fb200f5"
   else
     url "http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_dar_x86.tar.gz"
-    sha256 "1abba772695aa811ff99205e938afadbc40577f0de60a9ac5ce39cb92d88d9ad"
+    sha256 "1413fd42c03eabfcae3b37ebbbf1fbe08d89b865c07dc166231ef1fda26fe2aa"
   end
-  version "6.0.7"
+  version "6.0.8"
 
   def extension_type
     "zend_extension"
