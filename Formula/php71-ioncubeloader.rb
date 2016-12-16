@@ -6,7 +6,7 @@ class Php71Ioncubeloader < AbstractPhp71Extension
   homepage "http://www.ioncube.com/loaders.php"
   if MacOS.prefer_64_bit?
     url "http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_dar_x86-64.tar.gz"
-    sha256 "41d4d6cd0fb7bac8129a9a4e1e0710852dd5b899de03739960f191af2afc3fc9"
+    sha256 "267f9c4810eec91420f338e3206c1fce02e4ee85e1c491a7234707ab7fb200f5"
   else
     url "http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_dar_x86.tar.gz"
     sha256 "1abba772695aa811ff99205e938afadbc40577f0de60a9ac5ce39cb92d88d9ad"
